@@ -100,7 +100,7 @@ Non-USPCC,EUR,Admin
 | Flag           | Description                                       | Example         |
 | -------------- | ------------------------------------------------- | --------------- |
 | `-f, --file`   | Input file (JSON/YAML)                            | `-f data.yaml`  |
-| `-o, --output` | Output CSV file (default: `test_case_matrix.csv`) | `-o output.csv` |
+| `-o, --output` | Output CSV file (default: `output.csv`) | `-o output.csv` |
 
 ---
 
@@ -111,7 +111,7 @@ Contributions to DataWeave are welcome! If you have suggestions for improvements
 This project is licensed under the [MIT License](LICENSE.md). Feel free to use, modify, and distribute this code according to the terms of the license.
 
 ## About
-DataWeave is maintained by (Ae) Angel Estrada. For questions or support, please contact (angel-estrada.com)[https://www.angel-estrada.com].
+DataWeave is maintained by (Ae) Angel Estrada. For questions or support, please contact [angel-estrada.com](https://www.angel-estrada.com).
 
 ---
 
