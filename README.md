@@ -3,13 +3,13 @@
 **DataWeave** is a CLI tool that converts **JSON/YAML to CSV** by generating all possible **permutations** of the provided data.\
 It’s built in **Rust** and optimized for high-performance structured data transformation.
 
-## 🚀 Features
+## Features
 
 TBD
 
 ---
 
-## 📛 Installation
+## Installation
 
 Install **DataWeave** via **Cargo**:
 
@@ -27,7 +27,7 @@ cargo build --release
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ### **Basic Usage**
 
@@ -49,9 +49,9 @@ dataweave -f input.json -o output.csv
 
 ---
 
-## 📜 Input Format
+## Input Format
 
-### ✅ **JSON Example
+### JSON Example
 
 ```json
 {
@@ -62,7 +62,7 @@ dataweave -f input.json -o output.csv
 
 ```
 
-### ✅ **YAML Example
+###  YAML Example
 
 ```yaml
 make:
@@ -82,7 +82,7 @@ interior_color:
 
 ---
 
-## 📊 Output (CSV)
+## Output (CSV)
 
 For the above JSON/YAML, the output **CSV file** will contain all **possible permutations**:
 
@@ -110,7 +110,7 @@ Porsche,White,Dark
 
 ---
 
-## 🛠️ Options
+## Options
 
 | Flag           | Description                                       | Example         |
 | -------------- | ------------------------------------------------- | --------------- |
