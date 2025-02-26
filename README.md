@@ -54,25 +54,50 @@ dataweave -f input.json -o output.csv
 ### ✅ **JSON Example (**``**)**
 
 ```json
+
 {
-  "Agency": ["USPCC", "Non-USPCC"],
-  "Currency": ["USD", "EUR"],
-  "Role": ["Traveler", "Admin"]
+  "dough_flour": ["wheat", "wholegrain", "gluten-free"],
+  "sauce": ["tomato", "bianca", "pesto"],
+  "cheese": ["parmigiano", "mozzarella", "ricotta"],
+  "toppings_one": ["basil", "garlic", "onion"],
+  "toppings_two": ["mushrooms", "peppers", "olives"],
+  "toppings_three": ["pepperoni", "prosciutto", "anchovies"]
 }
+
 ```
 
 ### ✅ **YAML Example (**``**)**
 
 ```yaml
-Agency:
-  - USPCC
-  - Non-USPCC
-Currency:
-  - USD
-  - EUR
-Role:
-  - Traveler
-  - Admin
+dough_flour:
+  - wheat
+  - wholegrain
+  - gluten-free
+
+sauce:
+  - tomato
+  - bianca
+  - pesto
+
+cheese:
+  - parmigiano
+  - mozzarella
+  - ricotta
+
+toppings_one:
+  - basil
+  - garlic
+  - onion
+
+toppings_two:
+  - mushrooms
+  - peppers
+  - olives
+
+toppings_three:
+  - pepperoni
+  - prosciutto
+  - anchovies
 ```
 
 ---
