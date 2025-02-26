@@ -54,14 +54,10 @@ dataweave -f input.json -o output.csv
 ### ✅ **JSON Example (**``**)**
 
 ```json
-
 {
-  "dough_flour": ["wheat", "wholegrain", "gluten-free"],
-  "sauce": ["tomato", "bianca", "pesto"],
-  "cheese": ["parmigiano", "mozzarella", "ricotta"],
-  "toppings_one": ["basil", "garlic", "onion"],
-  "toppings_two": ["mushrooms", "peppers", "olives"],
-  "toppings_three": ["pepperoni", "prosciutto", "anchovies"]
+  "make": ["BMW", "Audi", "Porsche"],
+  "color": ["Silver", "Black", "White"],
+  "interior": ["Light", "Dark"]
 }
 
 ```
@@ -69,35 +65,19 @@ dataweave -f input.json -o output.csv
 ### ✅ **YAML Example (**``**)**
 
 ```yaml
-dough_flour:
-  - wheat
-  - wholegrain
-  - gluten-free
+make:
+  - Audi
+  - BMW
+  - Porsche
 
-sauce:
-  - tomato
-  - bianca
-  - pesto
+exterior_color:
+  - Silver
+  - Black
+  - White
 
-cheese:
-  - parmigiano
-  - mozzarella
-  - ricotta
-
-toppings_one:
-  - basil
-  - garlic
-  - onion
-
-toppings_two:
-  - mushrooms
-  - peppers
-  - olives
-
-toppings_three:
-  - pepperoni
-  - prosciutto
-  - anchovies
+interior_color:
+  - Light
+  - Dark
 ```
 
 ---
@@ -107,15 +87,25 @@ toppings_three:
 For the above JSON/YAML, the output **CSV file** will contain all **possible permutations**:
 
 ```csv
-Agency,Currency,Role
-USPCC,USD,Traveler
-USPCC,USD,Admin
-USPCC,EUR,Traveler
-USPCC,EUR,Admin
-Non-USPCC,USD,Traveler
-Non-USPCC,USD,Admin
-Non-USPCC,EUR,Traveler
-Non-USPCC,EUR,Admin
+make,exterior_color,interior_color
+Audi,Silver,Light
+Audi,Silver,Dark
+Audi,Black,Light
+Audi,Black,Dark
+Audi,White,Light
+Audi,White,Dark
+BMW,Silver,Light
+BMW,Silver,Dark
+BMW,Black,Light
+BMW,Black,Dark
+BMW,White,Light
+BMW,White,Dark
+Porsche,Silver,Light
+Porsche,Silver,Dark
+Porsche,Black,Light
+Porsche,Black,Dark
+Porsche,White,Light
+Porsche,White,Dark
 ```
 
 ---

@@ -1,0 +1,13 @@
+make:
+  - Audi
+  - BMW
+  - Porsche
+
+exterior_color:
+  - Silver
+  - Black
+  - White
+
+interior_color:
+  - Light
+  - Dark
