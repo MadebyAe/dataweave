@@ -1,0 +1,74 @@
+base:
+  - wheat
+  - wholegrain
+  - gluten-free
+  - sourdough
+  - semolina
+
+sauce:
+  - tomato
+  - bianca
+  - pesto
+  - marinara
+  - vodka sauce
+
+cheese:
+  - parmigiano
+  - mozzarella
+  - ricotta
+  - provolone
+  - gorgonzola
+  - fontina
+  - pecorino romano
+  - burrata
+  - none
+
+toppings_one:
+  - basil
+  - garlic
+  - onion
+  - mushrooms
+  - bell peppers
+  - olives
+  - arugula
+  - artichokes
+  - sun-dried tomatoes
+  - capers
+  - none
+
+toppings_two:
+  - basil
+  - garlic
+  - onion
+  - mushrooms
+  - bell peppers
+  - olives
+  - arugula
+  - artichokes
+  - sun-dried tomatoes
+  - capers
+  - pepperoni
+  - sausage
+  - prosciutto
+  - anchovies
+  - none
+
+toppings_three:
+  - basil
+  - garlic
+  - onion
+  - mushrooms
+  - bell peppers
+  - olives
+  - arugula
+  - artichokes
+  - sun-dried tomatoes
+  - capers
+  - pepperoni
+  - sausage
+  - prosciutto
+  - anchovies
+  - extra cheese
+  - chili flakes
+  - truffle oil
+  - none

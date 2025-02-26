@@ -1,0 +1,15 @@
+pages:
+  - home
+  - search
+  - details
+  - checkout
+language:
+  - english
+  - french
+  - japanese
+appareace:
+  - dark
+  - light
+experiment:
+  - control
+  - treatment
