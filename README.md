@@ -51,7 +51,7 @@ dataweave -f input.json -o output.csv
 
 ## 📜 Input Format
 
-### ✅ **JSON Example (**``**)**
+### ✅ **JSON Example
 
 ```json
 {
@@ -62,7 +62,7 @@ dataweave -f input.json -o output.csv
 
 ```
 
-### ✅ **YAML Example (**``**)**
+### ✅ **YAML Example
 
 ```yaml
 make:
