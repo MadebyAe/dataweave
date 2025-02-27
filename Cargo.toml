@@ -1,6 +1,6 @@
 [package]
 name = "dataweave"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 repository = "https://github.com/MadebyAe/dataweave"
 description = "DataWeave is a CLI tool that converts JSON/YAML to CSV by generating all possible permutations of the provided data."
@@ -8,6 +8,10 @@ authors = ["Ae <hi@angel-estrada.com>"]
 keywords = ["cartesean", "permutation", "cli"]
 categories = ["command-line-utilities"]
 license = "MIT"
+
+[[bin]]
+name = "dataweave"
+path = "src/main.rs"
 
 [dependencies]
 itertools = "0.10"
