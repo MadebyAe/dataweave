@@ -6,7 +6,7 @@ repository = "https://github.com/MadebyAe/dataweave"
 description = "DataWeave is a CLI tool that converts JSON/YAML to CSV by generating all possible permutations of the provided data."
 authors = ["Ae <hi@angel-estrada.com>"]
 keywords = ["cartesean", "permutation", "cli"]
-categories = ["cli"]
+categories = ["command-line-utilities"]
 license = "MIT"
 
 [dependencies]
